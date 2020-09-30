@@ -1,0 +1,63 @@
+body{
+	margin : 0px 0px ;
+	background-color : #ffcc33 ;
+}
+
+h2{
+	font-size : 25px ;
+}
+
+#container{
+	text-align : center ;
+	font-size : 25px ;
+}
+
+table{
+	width : 100% ;
+	height : auto ;
+	border : 1px solid black ;
+	margin : 110px auto ;
+	position : fixed ;
+	background-color : green;
+}
+
+th{
+	text-align : center ;
+	border-right : 1px solid black ;
+	padding : 10px ;
+	font-size : 20px ;
+	width : 50% ;
+}
+
+td{
+	text-align : center ;
+	border-right : 1px solid black ;
+	padding : 10px;
+	height : 350px ;
+}
+
+button{
+	padding : 20px ;
+	margin : 20px 10px ;
+	text-align : center ;
+	font-size : 25px ;
+	border : 1px solid black;
+	border-radius : 20px ;
+	color : white ;
+}
+
+#btn-1{
+	background-color : red;
+}
+
+#btn-2{
+	background-color : #ff3366;
+}
+
+#btn-3{
+	background-color : brown;
+}
+
+img{
+	margin : 0px 20px  ;
+}

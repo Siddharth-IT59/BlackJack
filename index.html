@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css"></link>
+  <audio id="audio">
+	<source src="sounds/hit.mp3" type="audio/mpeg" />
+  </audio>
+</head>
+<body>
+	<div id="container">
+		<h2>BlackJack</h2>
+	<table>
+		<th>Player 1 : <span id="score_1"></span></th>
+		<th>Player 2 : <span id="score_2"></span></th>
+
+		<tr>
+			<td><div id="you"></div></td>
+			<td><div id="cpu"></div></td>
+		</tr>
+
+	</table>
+	<div id="buttons">
+		<button id="btn-1" onclick="getCards(this)">Player-1</button>
+		<button id="btn-2" onclick="getCards(this)">Player-2</button>
+		<button id="btn-3" onclick="resetAll()">Reset</button>
+	</div>
+</div>
+<script src="js/home.js"></script>
+</body>
+</html>
